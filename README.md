@@ -1,5 +1,5 @@
 # Installation
-- Clone the repository: git clone https://github.com/yourusername/gig-listings.git
+- Clone the repository: git clone https://github.com/Anko21/Gig-listings.git
 - Navigate to the project directory: cd gig-listings
 - Install dependencies: npm install
 - Start the development server: npm run dev
