@@ -1,0 +1,85 @@
+.gig-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(5, 5, 5);
+    padding:0.5em;
+    margin:0.5em;
+    height: 10%;
+    box-sizing: border-box;
+
+}
+
+h3.artist {
+    margin: 1em;
+    color: #f154dc;
+    font-weight: bolder;
+    font-stretch: semi-expanded;
+}
+
+.gig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-img {
+    flex: 1;
+}
+
+.info {
+    flex: 1;
+    margin: 1em;
+}
+
+img.artist-image {
+    max-width: 100%;
+    height: 20em;
+}
+
+.favourite_button{
+    float: right;
+    border: none;
+    border-radius: 4px;
+    width: 3em;    
+}
+
+p {
+    font-size: 1em; 
+}
+
+p.gig-description {
+    margin: 1em auto;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.gig-details {
+    margin: auto;
+    border: 5px solid rgb(243, 5, 211);
+    width: fit-content;
+    padding: 1em;
+}
+
+p.gig-time, p.gig-date {
+    font-size: 1em; 
+    font-weight: bolder;
+}
+
+p.gig-location, p.gig-name {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+    .gig {
+        flex-direction: column;
+    }
+    
+    img.artist-image {
+        max-width: 100%;
+    }
+}
